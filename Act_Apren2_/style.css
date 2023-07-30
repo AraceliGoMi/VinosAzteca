@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800 & display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box; 
+    text-decoration: none; 
+    list-style: none; 
+ }
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(  
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(gif/wine_-_62080\ \(540p\).gif);
+        background-position:  center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;       
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 5%;
+    left: 10%;
+    transform: translate(50%, -40%);
+    width: 60px;
+  
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    margin-top: -10%;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #540B14;
+}
+
+
+.menu-icono {
+    width: 60px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 17px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding:  11px 35px;
+    background-color: #540B14;
+    color: #c5c5c5;
+    text-transform: uppercases;
+    border-radius: 25px;    
+}
+
+.btn-1:hover {
+    background-color: #c5c5c5;
+    color: #540B14;
+}
+
+.btn-2 {
+    display: flex;
+    padding:  11px 35px;
+    background-color: #540B14;
+    color: #c5c5c5;
+    text-transform: uppercases;
+    border-radius: 25px;
+    justify-content: center;  
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;  
+}
+
+.btn-2:hover { 
+    background-color: #c5c5c5;
+    color: #540B14;
+}
+
+.vinos {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.vinos-content {
+    text-align: center;
+}
+
+.vinos-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #540B14;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #323337;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.vinos-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.vinos-1{
+    padding: 0 25px;
+}
+.vinos-1 img {
+    width: 200px;
+}
+
+.vinos-img{
+    position: absolute;
+    top:  0;
+    right: 0;
+    
+}
+
+.vinos-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.fer{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(imagenes/FondoViñedo.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    background-attachment: fixed;
+    padding: 100px 0px;
+}
+
+.fer-content{
+    text-align: center;
+}
+
+.fer-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.fer-content p{
+    font-size: 40px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.fer-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.fer-1{
+    padding: 0 100px;
+}
+.fer-1 img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.fer-1 h3{
+    color: #f9fafc;
+    font-size: 18px;
+}
+
+.enoturismo{
+    display: flex;
+}
+.enoturismo-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    color: #e1e2e6;
+}
+
+.enoturismo-2{
+    background-image: url(imagenes/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.enoturismo-3{
+    background-image: url(imagenes/3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px ;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+.Contacto{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Contacto-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Contacto-1{
+    padding: 15px 55px;
+}
+
+.Contacto-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    padding: 40px  0;
+    background-color: #000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3{
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+@media(max-width:991px) {
+
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        padding: 100px 30px;
+    }
+
+    .header-content p {
+        padding: 0;
+    }
+    
+    .vinos {
+        padding: 30px;
+    }
+
+    .vinos-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+    .vinos-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .vinos-img {
+        display: none;
+    }
+
+    .fer {
+        padding: 30px;
+    }
+    .fer-content p {
+        padding: 0;
+    }
+   .fer-group {
+    flex-direction: column;
+    margin-bottom: 0;
+   } 
+
+   .fer-1 {
+    margin-bottom: 25px;
+   }
+
+   .enoturismo{
+    flex-direction: column;
+   }
+   
+   .enoturismo-1{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+   }
+
+   .enoturismo-2, .enoturismo-3 {
+    display: none;
+   }
+
+   .Contacto{
+    padding: 30px;
+   }
+
+   .Contacto-content {
+    flex-direction: column;
+   }
+
+   .Contacto-1 {
+    padding: 0;
+   }
+
+   .footer {
+    padding: 30px;
+   }
+
+   .footer-content {
+    flex-direction: column;
+    text-align: center;
+   }
+
+}
+    

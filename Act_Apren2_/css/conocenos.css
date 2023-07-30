@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800 & display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box; 
+    text-decoration: none; 
+    list-style: none; 
+ }
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(  
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../imagenes/FondoConocenos.jpg);
+        background-position:  center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;       
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 5%;
+    left: 10%;
+    transform: translate(50%, -40%);
+    width: 60px;
+  
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    margin-top: -10%;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #540B14;
+}
+
+
+.menu-icono {
+    width: 60px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 17px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding:  11px 35px;
+    background-color: #540B14;
+    color: #c5c5c5;
+    text-transform: uppercases;
+    border-radius: 25px;    
+}
+
+.btn-1:hover {
+    background-color: #c5c5c5;
+    color: #540B14;
+}
+.enoturismo{
+    display: flex;
+}
+.enoturismo-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    color: #e1e2e6;
+}
+
+.enoturismo-2{
+    background-image: url(../imagenes/VinoHistoria.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.enoturismo-3{
+    background-image: url(../imagenes/VinoHacienda.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.enoturismo-4{
+    background-image: url(../imagenes/VinoViñedos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px ;
+    color: #414247;
+    margin: 25px 0 45px 0;
+ 
+}
+
+
+
+

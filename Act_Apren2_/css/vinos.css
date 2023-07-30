@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box; 
+    text-decoration: none; 
+    list-style: none; 
+ }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffdfc;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: linear-gradient(  
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../imagenes/viñedo.jpg);
+        background-position:  center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;       
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 5%;
+    left: 10%;
+    transform: translate(50%, -40%);
+    width: 60px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    margin-top: -10%;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+    
+}
+
+.menu .navbar ul li a:hover{
+    color: #ce967b;
+}
+
+.menu-icono {
+    width: 60px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+}
+
+.header-txt h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-txt p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding:  11px 35px;
+    background-color: #540B14;
+    color: #f9fafc;
+    text-transform: uppercases;
+    border-radius: 25px;   
+}
+
+.btn-1:hover {
+    background-color: #f9fafc;
+    color: #540B14;
+}
+
+.direction {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;  
+}
+
+.direction p{
+    color: #422110;
+    font-size: 16px;
+}
+
+.about {
+    padding: 60px 0;
+    display: flex;
+}
+
+.about-txt{
+    width: 50%;
+    
+}
+
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 650px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #540B14; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-txt p{
+    font-size: 16px;
+    color: #422110;
+    margin-bottom: 35px;
+   
+}
+
+.Information {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.Information-1{
+    display: flex;
+    align-items: center;
+}
+
+.Information-1 h3{
+    font-size: 70px;
+    color: #540B14;
+    margin-left: 10px;
+   
+}
+
+.Information-1 p{
+    font-size: 16px;
+    color: #323337;
+    margin-left: 10px;
+    
+}
+
+.house{
+    display: flex;
+    justify-content: space-between;
+}
+
+.house-1 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.411),
+        #540b1372),
+        url(../imagenes/v-1.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+
+.house-2 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.411),
+        #540b1372),
+        url(../imagenes/v-2.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+
+.house-3 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.411),
+        #540b1372),
+        url(../imagenes/v-3.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+
+.house-4 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.411),
+        #540b1372),
+        url(../imagenes/v-4.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+
+.house-5 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.411),
+        #540b1372),
+        url(../imagenes/v-5.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+
+.house-6 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.411),
+        #540b1372),
+        url(../imagenes/v-6.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+
+.house-7 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.411),
+        #540b1372),
+        url(../imagenes/v-7.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+
+.house-8 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.411),
+        #540b1372),
+        url(../imagenes/v-8.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        padding: 25px;
+}
+
+.txt {
+    position: relative;
+}
+
+.txt span{
+    color: #540B14;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.txt h3{
+    color: #323337;
+    font-size: 20px;
+}
+
+.txt p {
+    font-size: 16px;
+    color: #323337;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    rotate: 270deg;
+    font-weight: 800;
+    width: 10%;
+}
+
+.footer {
+    padding: 10px 0 0 0;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-form {
+    width: 50%;
+}
+
+.footer-txt {
+    width: 50%;
+}
+
+form{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.campo {
+    background-color: #323337;
+    padding: 17px 35px;
+    outline: none;
+    color: #323337;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.campo ::placeholder {
+    color: #323337;
+
+}
+
+.btn-2 {
+    padding: 17px 35px;
+    border: 2px solid #323337;
+    color: #323337;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+
+.footer-txt h3 {
+    color: #f9fafc;
+    font-size: 35px;
+    margin: 0% 100px 20px 0;
+}
+
+
+.footer-txt p {
+    margin-bottom: 25px;
+    font-size: 10px;
+    color: #323337;
+}
+
+.footer-2p {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #323337;
+}
+
+@media(max-width:991px) {
+    .menu{
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu  .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #3233376c;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 100px 30px;
+    }
+
+    .header-txt{
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-txt h1{
+        font-size: 70px;
+        line-height: 88px;
+    }
+
+    .direction {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .direction p {
+        margin-bottom: 10px;
+    }
+
+    .about {
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+    }
+
+    .about-txt {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .about-img {
+        width: 100%;
+        order: 2;
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 300px;
+    }
+
+    .Information {
+        padding: 30px;
+        flex-direction: column;
+        margin-left: 80px;
+    }
+
+    .house{
+        flex-direction: column;
+    }
+
+    .footer {
+        padding: 30px 30px 0 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-form {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-txt h3{
+        margin:  0 0 20px 0;
+    }
+
+    form {
+        display: flex;
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+
+
+
+}
+
+
+
