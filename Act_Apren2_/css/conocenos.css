@@ -154,6 +154,170 @@ p{
  
 }
 
+@media screen and (max-width:1200px){
+    header{
+        padding: 4px;
+    }
+}
+@media screen and (max-width:700px){
+    .menu nav{
+        
+        background: #c5c5c5bc;
+        width: 125px;
+        height: 552px;
+        padding: 40px;
+        z-index: 1;
+        position: relative;
+        transition: 4s;
+    }
+   
+.menu ul{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: -23px;
+
+}
+.menu ul li{
+    margin-top: -50px;
+    margin-left: -23px;
+
+}
+.menu ul li a{
+    color: #323337;
+    
+}
+#selected{
+    background: none;
+    padding: 0;
+    border-radius: none;
+    color: #540B14;
+}
+.menu nav img{
+    display: none;
+
+}
+.logo{
+    display: none;
+}
+#back_menu{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+#btn_menu{
+   display: none;
+   width: 50px;
+   height: 50px;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(255, 255, 255, 0.374);
+   font-size: 25px;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 300ms;
+}
+#btn_menu:hover{
+    background-color: rgba(255, 255, 255, 0.715);
+   }
+#back_menu{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+background-color: rgba(0,0,0,0.5);
+display: none;
+}
+
+.header {
+    min-height: 0vh;
+}
+
+.header-content {
+    padding: 100px 30px;
+}
+
+.header-content p {
+    padding: 0;
+}
+
+.enoturismo {
+    padding: 30px;
+}
+
+.vinos-content h2 {
+    padding: 0;
+}
+
+.txt-p {
+    padding: 0;
+}
+.vinos-group {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.enoturismo-2{
+    display: none;
+}
+
+.enoturismo-2{
+    padding: 30px;
+}
+.enoturismo-3 p {
+    padding: 0;
+}
+.fer-group {
+flex-direction: column;
+margin-bottom: 0;
+} 
+
+.enoturismo-2 {
+margin-bottom: 25px;
+}
+
+.enoturismo-2{
+flex-direction: column;
+}
+
+.enoturismo-1{
+width: 100%;
+padding: 30px;
+text-align: center;
+}
+
+.enoturismo-2, .enoturismo-3 {
+display: none;
+}
+
+.enoturismo-4{
+padding: 30px;
+}
+
+.enoturismo-4 {
+flex-direction: column;
+}
+
+.Contacto-1 {
+padding: 0;
+}
+
+.enoturismo-4 {
+padding: 30px;
+}
+
+.footer-content {
+flex-direction: column;
+text-align: center;
+}
+
+}
+
+
+
 
 
 

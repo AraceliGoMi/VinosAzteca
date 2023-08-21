@@ -6,24 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viñedo Azteca</title>
-    <link rel="shortcut icon" href="imagenes/Icono.png">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js"
+    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+
 
 </head>
 
 <body>
-    <header class="header">
-        <div class="menu cotainer" id="inicio">
-            <a href="#" class="logo">
+
+   
+        <header class="header">
+        <div class="menu cotainer">
+            <a class="logo"> 
             <img src="imagenes/vinoslogo.png" class="menu-icono" alt=""> </a>
-           
-            <imput type=" checkbox" id="menu"> 
-                <label for="menu">
-                   <img src="images/menu.png" class="menu-icono" alt="">
-                </label>
+
+            <div class="menu">
+
+            <div id="toggle-menu" class="toggle-menu">
+                    <i class="fas fa-bars" id="btn_menu"></i>
+                </div> 
+                    <div id="back_menu"></div>
+
+                </div>
+                
                 <nav class="navbar">
+                    <script src="./js/script.js"></script>
                     <ul>
-                        <li><a href="../Act_Apren2_/html/vinos.html">Menu</a></li>
+                        <li><a href="../Act_Apren2_/html/vinos.html">Menú</a></li>
                         <li><a href="../Act_Apren2_/html/conocenos.html">Conocenos</a></li>
                         <li><a href="../Act_Apren2_/html/enoturismo.html">Enoturismo</a></li>
                         <li><a href="#contacto">Contacto</a></li>
@@ -61,14 +71,14 @@
                     <img src="imagenes/VinoBlanco.png" alt="">
                     <h3> Vino blanco</h3>
                     <p>
-                        LRompiendo con la extendida creencia, el vino blanco se elabora a partir de mosto de uvas blancas y/o tintas, con la condición de que las tintas no presenten pulpa coloreada y no se sometan a maceración con sus hollejos. Para la elaboración de este tipo de vino, las uvas se prensan y se obtiene únicamente el mosto, sin las pieles, consiguiendo su característico tono amarillo transparente
+                        Rompiendo con la extendida creencia, el vino blanco se elabora a partir de mosto de uvas blancas y/o tintas, con la condición de que las tintas no presenten pulpa coloreada y no se sometan a maceración con sus hollejos. Para la elaboración de este tipo de vino, las uvas se prensan y se obtiene únicamente el mosto, sin las pieles, consiguiendo su característico tono amarillo transparente
                     </p>
                 </div>
                 <div class="vinos-1">
                     <img src="imagenes/VinoTinto.png">
                     <h3> Vino tinto </h3>
                     <p>
-                        Como indica su nombre, el vino tinto se elabora principalmente a partir de uvas tintas. La fermentación alcohólica de este tipo de vinos se realiza con el mosto y hollejo de las uvas, lo que le confiere al vino tinto su característico color oscuro, que variará de acuerdo al tiempo de maceración..
+                        Como indica su nombre, el vino tinto se elabora principalmente a partir de uvas tintas. La fermentación alcohólica de este tipo de vinos se realiza con el mosto y hollejo de las uvas, lo que le confiere al vino tinto su característico color oscuro, que variará de acuerdo con el tiempo de maceración.
                     </p>
                 </div>
                 <div class="vinos-1">
@@ -79,7 +89,7 @@
                     </p>
                 </div>
             </div>
-            <a href="../Act_Apren2_/html/vinos.html" class="btn-1">Menu</a>
+            <a href="../Act_Apren2_/html/vinos.html" class="btn-1">Menú</a>
         </div>
 
     </section>
@@ -139,7 +149,7 @@
 
     <section class="Contacto container" id="contacto"> 
         <h2>Contacto</h2>
-        <a href="#inicio" class="btn-2">Inicio</a>
+        <a href="index.html" class="btn-2">Inicio</a>
         <p>
             Por contingencia de COVID19 es imprescindible reservar ya que tenemos cupo limitado y el uso de cubre bocas es obligatorio.
         </p>
@@ -197,7 +207,6 @@
         </div>
 
     </footer>
-
 </body>
 
 </html>

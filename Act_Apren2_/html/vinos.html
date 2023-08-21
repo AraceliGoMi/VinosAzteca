@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Menú</title>
     <link rel="shortcut icon" href="../imagenes/Icono.png">
     <link rel="stylesheet" href="../css/vinos.css">
 </head>
@@ -13,12 +13,18 @@
 
     <header class="header">
         <div class="menu cotainer">
-            <a href="#" class="logo">
-                <img src="../imagenes/vinoslogo.png" class="menu-icono" alt=""> </a>
-            <imput type=" checkbox" id="menu">
-                <label for="menu">
-                    <img src="images/menu.png" class="menu-icono" alt="">
-                </label>
+            <a class="logo"> 
+            <img src="../imagenes/vinoslogo.png" class="menu-icono" alt=""> </a>
+
+            <div class="menu">
+
+            <div id="toggle-menu" class="toggle-menu">
+                    <i class="fas fa-bars" id="btn_menu"></i>
+                </div> 
+                    <div id="back_menu"></div>
+
+                </div>
+                
                 <nav class="navbar">
                     <ul>
                         <li><a href="vinos.html">Menu</a></li>
